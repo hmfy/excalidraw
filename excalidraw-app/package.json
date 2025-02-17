@@ -42,7 +42,7 @@
   "scripts": {
     "build-node": "node ./scripts/build-node.js",
     "build:app:docker": "cross-env VITE_APP_DISABLE_SENTRY=true vite build",
-    "build:app": "vite build --output build",
+    "build:app": "vite build",
     "build:version": "node ../scripts/build-version.js",
     "build": "yarn build:app",
     "start": "yarn && vite",
